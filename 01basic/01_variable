@@ -1,0 +1,21 @@
+const accountId = 1444
+let accountemail = "nikhil.google.com"
+var accountpass = "9755"
+accountcity = "pune"       // if possible to write a varible at this format not using let & vat
+let accountstate;
+//accountId = 2  TypeError: Assignment to constant variable. 
+
+
+accountemail = "nkn@gmail.com"
+accountpass = "5641"
+accountcity ="nagpur" 
+
+
+// console.log(accountId);
+
+/*
+prefer not use var 
+bcz in issue in block scope and function scope
+*/
+
+console.table([accountId, accountpass, accountemail, accountcity, accountstate]);
