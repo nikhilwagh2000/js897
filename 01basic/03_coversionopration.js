@@ -24,5 +24,39 @@ let booleanisloggedin = Boolean(isloggedin)// we are cheak here in boolean
 
 let sameNumber = 33 
 let stringNumber = String(sameNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+//console.log(typeof stringNumber);
+
+// ################### opration ####################
+
+
+let str1 ="nikhil"
+let str2 =" wagh"
+let myString = str1+str2
+//console.log(myString);
+
+
+/*
+The abstract operation ToPrimitive takes argument input (an ECMAScript language value) and optional 
+argument preferredType (string or number) and returns either a normal completion containing an ECMAScript 
+language value or a throw completion. It converts its input argument to a non-Object type. If an object is capable of converting to more than one primitive type, it may use the optional hint preferredType to favour that type. It performs the following steps when called:
+*/
+//console.log("3"+ 2);
+//console.log(2+ "3");
+//console.log(6+ 4+ "7");  
+
+ 
+
+// console.log(null > 0);
+// console.log(null >=0);
+// console.log(null == 0);
+
+
+// console.log(undefined > 0);
+// console.log(undefined >= 0);
+// console.log(undefined = 0);
+
+
+// (===)  /=======strict cheak
+
+console.log("2" ===2 );
